@@ -1,0 +1,78 @@
+﻿body {
+    background: #eee;
+    margin: 0 auto;
+}
+
+.wrapper {
+    border: 2px solid lightgrey;
+    background: white;
+    width: 500px;
+    padding: 15px 0 40px;
+    margin: 3px auto;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.foto {
+    background: url('../images/12144500.png') no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    padding: 2px 5px;
+}
+
+.block_1, .block_2, .block_3, .block_4 {
+    width: 400px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.block_2 p:first-child{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.block_3 {
+    padding-bottom: 20px;
+}
+
+    .block_3 a {
+        color: #0a00ff;
+    }
+
+.block_4 {
+    padding: 10px 0;
+}
+
+    .block_4 p {
+        line-height: 10px;
+    }
+
+.border__bottom {
+    border-bottom: 1px solid grey;
+}
+
+.tel_block {
+    margin-bottom: 30px;
+}
+
+    .git_block p, .tel_block p {
+        margin-bottom: 5px;
+    }
+
+.tel {
+    margin: 0;
+}
