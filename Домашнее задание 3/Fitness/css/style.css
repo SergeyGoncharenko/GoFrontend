@@ -1,0 +1,53 @@
+﻿@import url('reset.css');
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.wrapper {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    margin: 0 auto;
+    padding: 0 50px;
+    width: 70%;
+}
+
+.logo h2 {
+    font-size: 42px;
+    line-height: 100px;
+}
+
+.menu {
+    display: block;
+}
+
+    .menu ul {
+        display: flex;
+        background: #4f4f4f;
+    }
+
+    .menu li {
+        float: left;
+        display: inline-block;
+        background: #4f4f4f;
+    }
+        .menu li.active {
+            background: #434343;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+        }
+        .menu li:nth-child(3){
+            padding: 0 40px;
+        }
+
+    .menu a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+    .menu li:first-child{
+        padding-right: 40px;
+    }
