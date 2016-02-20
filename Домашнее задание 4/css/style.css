@@ -153,17 +153,6 @@ body {
         height: 100%;
         padding-left: 5px;
     }
-        .triugol:after {
-            content: '';
-            width:6px;
-            height: 6px;
-            background: url('../img/treugolnik.png') no-repeat;
-            color:#ffffff;
-            position: absolute;
-            top: 14px;
-            left: 108px;
-        }
-
 
         .menu li:hover ul {
             display: block;
@@ -171,7 +160,7 @@ body {
 
         .menu li a {
             display: block;
-            width: 100px;
+            width: 102px;
             color: #fff;
             text-decoration: none;
             text-align: center;
