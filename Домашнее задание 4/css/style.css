@@ -135,35 +135,50 @@ body {
 /*MENU*/
 
 .menu {
+    border-bottom: 1px solid #000000;
+    height: 30px;
+    background: #333333;
 }
 
     .menu ul {
-        display: flex;
+        display: none;
         background: #333333;
-        padding: 0 40px;
+        position: absolute;
+        top: 100%;
     }
 
     .menu li {
-        display: inline-block;
-     }
+        float: left;
+        position: relative;
+        height: 100%;
+        padding-left: 5px;
+    }
+        .triugol:after {
+            content: '';
+            width:6px;
+            height: 6px;
+            background: url('../img/treugolnik.png') no-repeat;
+            color:#ffffff;
+            position: absolute;
+            top: 14px;
+            left: 108px;
+        }
+
+
+        .menu li:hover ul {
+            display: block;
+        }
 
         .menu li a {
+            display: block;
+            width: 100px;
+            color: #fff;
             text-decoration: none;
+            text-align: center;
             font-size: 14px;
             line-height: 30px;
-            padding: 0 40px 0 10px;
-            color: white;
+            padding: 0 30px 0 5px;
         }
-
-        .menu li > ul {
-            display: block;
-            position: absolute;
-            padding: 0;
-        }
-
-            .menu li > ul li {
-                display: block;
-            }
 
 
 /*MAIN*/
