@@ -133,7 +133,9 @@ body {
 }
 
 /*MENU*/
-
+small{
+     font-size: 10px;
+}
 .menu {
     border-bottom: 1px solid #000000;
     height: 30px;
