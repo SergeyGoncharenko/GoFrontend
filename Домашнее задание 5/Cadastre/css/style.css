@@ -133,6 +133,11 @@ input[type="checkbox"] {
     margin: 3px 3px 3px -15px;
 }
 
+input:hover, input:focus {
+    background: #1b5288;
+    box-shadow: #699bcd 0 0 10px 3px;
+}
+
 button[type="submit"] {
     background: #4ba7d8;
     border: none;
