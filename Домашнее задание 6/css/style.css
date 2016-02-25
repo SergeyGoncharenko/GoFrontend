@@ -1,0 +1,115 @@
+﻿@import url('reset.css');
+
+body {
+    font-family: Arial, sans-serif; /*'Helvetica Neue', 'Segoe UI', Tahoma, Geneva, Verdana,*/
+}
+
+.wrapper {
+    /*width: 1000px;*/
+    width: 909px;
+    height: 1260px;
+    border: 1px solid lightblue;
+    padding: 20px 40px 0;
+}
+/*HEADER*/
+
+.phones {
+    margin: 12px 0 0;
+    float: left;
+}
+
+    .phones a {
+        text-decoration: none;
+        font: normal 18px/24px Arial;
+        padding-left: 5px;
+        color: #5e696d;
+    }
+
+.tel_1:before {
+    content: '';
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    background: url('../img/phone.png') center center no-repeat;
+    color: #ffffff;
+    background-color: #103d62;
+    border-radius: 13px;
+}
+
+.autorization {
+    float: left;
+    background-color: #103d62;
+    padding: 5px 10px;
+    margin: 0 12px 14px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #696969;
+}
+
+    .autorization input {
+    font: normal 11px/20px 'Lucida Sans Unicode';
+    color: #97a2a6;
+    padding-left: 5px;
+    width: 112px;
+    }
+
+.autorization_button {
+    display: block;
+    float: left;
+    width: 22px;
+    height: 26px;
+    margin-right: 4px;
+    background: url('../img/autorization.png') no-repeat;
+    background-size: cover;
+}
+
+.autorization a {
+    font: normal 11px/20px 'Lucida Sans Unicode';
+    text-decoration: none;
+    color: #ffffff;
+}
+.autorization .vxod{
+    border-right: 1px solid #ffffff;
+    padding: 0 5px 0 2px;
+}
+.autorization .zabylparol{
+    color:#bfbfbf;
+    padding-left: 15px;
+    text-decoration:underline;
+}
+.link_bar {
+    display: block;
+    float: right;
+    border: 1px solid #696969;
+    border-radius: 20px;
+    padding: 5px;
+    color: #696969;
+    
+}
+
+.link_bar a{
+    padding: 0 5px;
+    display: block;
+    float: left;
+    color: grey;
+}
+
+.banner {
+    background: url('../img/banner.png') no-repeat;
+    width: 909px;
+    height: 237px;
+    clear: both;
+}
+.top_header{
+    margin-bottom:20px;
+}
+    
+/*MENU*/
+
+
+/*FORM*/
+
+/*FOOTER*/
+
+footer {
+}
