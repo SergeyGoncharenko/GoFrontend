@@ -43,7 +43,7 @@ body {
             font-size: 14px;
             text-decoration: none;
             line-height: 30px;
-            padding: 7px 15px;
+            padding: 7px 15px 10px;
         }
 
             .menu li a:hover, .minhas:hover {
@@ -93,7 +93,7 @@ body {
 form {
     width: 550px;
     margin: 100px auto;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     color: #cccccc;
     text-align: center;
 }
@@ -110,6 +110,10 @@ form {
         line-height: 50px;
         text-align: center;
         border-bottom: 1px solid #cccccc;
+    }
+
+    form > p {
+        background: url('../img/OU-border.png') center no-repeat;
     }
 
 #logInFacebook {
