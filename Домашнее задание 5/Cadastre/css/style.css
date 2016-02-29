@@ -11,16 +11,27 @@
 
 body {
     font-family: 'Helvetica Neue', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url('../img/background_copy.jpg') no-repeat;
-    background-size: cover;
 }
 
+.wrapper {
+    width: 1215px;
+    height: 1064px;
+    margin: 0 auto;
+}
+
+.bg_wrapper {
+    width: 1215px;
+    height: 1029px;
+    padding-top: 214px;
+    background: url('../img/background_copy.jpg') no-repeat;
+}
 /*MENU*/
 .navbar {
+    margin: 0 auto;
     background-color: #085495;
     padding: 0 20px;
     display: flex;
-    height: 30px;
+    height: 35px;
     justify-content: flex-end;
 }
 
@@ -42,7 +53,7 @@ body {
             color: #60b5ed;
             font-size: 14px;
             text-decoration: none;
-            line-height: 30px;
+            line-height: 35px;
             padding: 7px 15px 10px;
         }
 
@@ -61,7 +72,7 @@ body {
         font-size: 14px;
         text-decoration: none;
         padding: 5px 15px 0;
-        line-height: 20px;
+        line-height: 25px;
     }
 
         .minhas a:before {
@@ -77,7 +88,7 @@ body {
     display: block;
     float: right;
     font-size: 14px;
-    padding: 6.5px 10px;
+    padding: 10px;
     color: #ffffff;
     background-color: #449cd3;
 }
@@ -93,7 +104,7 @@ body {
 
 form {
     width: 550px;
-    margin: 100px auto;
+    margin: auto;
     background: rgba(0, 0, 0, 0.6);
     color: #cccccc;
     text-align: center;

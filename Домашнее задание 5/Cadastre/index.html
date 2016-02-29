@@ -7,45 +7,49 @@
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="navbar">
-        <div class="menu">
-            <ul>
-                <li><a href="">Meu YouBike</a></li>
-                <li><a href="">Vender</a></li>
-                <li><a href="">Forum</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Ajuda</a></li>
-            </ul>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="menu">
+                <ul>
+                    <li><a href="">Meu YouBike</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Forum</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Ajuda</a></li>
+                </ul>
+            </div>
+            <div class="minhas">
+                <a href="">Minhas Ofertas</a>
+            </div>
+            <div class="entar">
+                Ola!<a href="">Entar</a>
+                ou<a href="">Cadastre-se</a>
+            </div>
         </div>
-        <div class="minhas">
-            <a href="">Minhas Ofertas</a>
-        </div>
-        <div class="entar">
-            Ola!<a href="">Entar</a>
-            ou<a href="">Cadastre-se</a>
+        <div class="bg_wrapper">
+            <form action="#" method="post">
+                <h1>Cadastre-se</h1>
+                <!--<button type="button" name="logInFacebook"><i class="fa fa-facebook"></i><b>Log In</b> with <b>Facebook </b>&#8250;</button>-->
+                <button href="" type="button" id="logInFacebook"></button>
+                <p>OU</p>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" />
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
+                <input type="email" name="email" id="email" placeholder="Email Address" />
+                <input type="password" name="password" id="" placeholder="Choose Password" />
+                <input type="password" name="password_confirm" id="" placeholder="Password Confirm" />
+                <div>
+                    <label for="sendMe">
+                        <input type="checkbox" value="" name="sendMe" id="sendMe" />Send me YouBike updates and tips
+                    </label>
+                </div>
+                <button type="submit" name="">Create my Account</button>
+
+                <footer>
+                    <p>By clicking the button above, you are agree to the Terms of Service</p>
+                    <p>Xiew our Privacy Policy.</p>
+                </footer>
+            </form>
         </div>
     </div>
-    <form action="#" method="post">
-        <h1>Cadastre-se</h1>
-        <!--<button type="button" name="logInFacebook"><i class="fa fa-facebook"></i><b>Log In</b> with <b>Facebook </b>&#8250;</button>-->
-        <button href="" type="button" id="logInFacebook"></button>
-        <p>OU</p>
-        <input type="text" name="firstName" id="firstName" placeholder="First Name" />
-        <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
-        <input type="email" name="email" id="email" placeholder="Email Address" />
-        <input type="password" name="password" id="" placeholder="Choose Password" />
-        <input type="password" name="password_confirm" id="" placeholder="Password Confirm" />
-        <div>
-            <label for="sendMe">
-                <input type="checkbox" value="" name="sendMe" id="sendMe" />Send me YouBike updates and tips
-            </label>
-        </div>
-        <button type="submit" name="">Create my Account</button>
-
-        <footer>
-            <p>By clicking the button above, you are agree to the Terms of Service</p>
-            <p>Xiew our Privacy Policy.</p>
-        </footer>
-    </form>
 </body>
 </html>
