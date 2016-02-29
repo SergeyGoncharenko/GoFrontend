@@ -76,6 +76,7 @@ body {
 .entar {
     display: block;
     float: right;
+    font-size: 14px;
     padding: 6.5px 10px;
     color: #ffffff;
     background-color: #449cd3;
@@ -84,7 +85,7 @@ body {
     .entar a {
         color: #ffffff;
         font-size: 14px;
-        line-height: 20px;
+        line-height: 14px;
         padding: 0 5px;
     }
 
