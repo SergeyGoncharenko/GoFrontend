@@ -332,14 +332,14 @@ header nav ul li a:hover, header nav ul li a:focus {
     .custom-select:after {
         content: "▼";
         position: absolute;
-        height: 15px;
+        height: 13px;
         border: 1px solid #d0d0d0;
         border-top: 1px solid #949494;
         top: 0;
         right: 0;
         bottom: 0;
         font-size: 12px;
-        line-height: 16px;
+        line-height: 14px;
         padding: 0 1px;
         background-color:#ffffff;
         color: #000000;
