@@ -341,6 +341,7 @@ header nav ul li a:hover, header nav ul li a:focus {
         font-size: 12px;
         line-height: 14px;
         padding: 0 1px;
+margin-top: 3px;
         background-color:#ffffff;
         color: #000000;
         
