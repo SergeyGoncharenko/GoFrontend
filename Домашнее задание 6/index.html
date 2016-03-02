@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Домашнее задание 6</title>
+    <!--<link href="fonts/font-awesome-4.5.0/css_s/font-awesome.css" rel="stylesheet" />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    /* <link href="fonts/font-awesome-4.5.0/css_s/font-awesome.css" rel="stylesheet" /> */
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
@@ -16,8 +16,8 @@
             </div>
             <form class="autorization">
                 <a href="" class="autorization_button"></a>
-                <input type="text" value="" placeholder="ЛОГИН" class="login_input" required />
-                <input type="password" value="" placeholder="ПАРОЛЬ" required />
+                <input type="text" value="" placeholder="логин" class="login_input" required />
+                <input type="password" value="" placeholder="пароль" required />
                 <a href="" class="vxod">вход</a>
                 <a href="">регистрация</a>
                 <a href="" class="zabylparol">забыли пароль?</a>
@@ -27,29 +27,236 @@
                 <a href=""><i class="fa fa-sitemap"></i></a>
                 <a href=""><i class="fa fa-envelope-o"></i></a>
             </div>
-            <div class="banner"></div>
+            <section class="banner"></section>
+            <nav>
+                <ul>
+                    <li><a href="">О КОМПАНИ</a></li>
+                    <li><a href="">ОПЛАТА</a></li>
+                    <li><a href="">ДОСТАВКА</a></li>
+                    <li><a href="">СТАТЬИ</a></li>
+                    <li><a href="">КОНТАКТЫ</a></li>
+                </ul>
+                <p class="tovarov_na_summu">на сумму: </p>
+                <p class="kolich_tovarov">товаров: </p>
+                <a href=""><i class="fa fa-shopping-cart fa-flip-horizontal"></i></a>
+            </nav>
         </header>
 
+        <section class="search_bar">
+            <form action="" id="search_po_auto" class="search_po_auto">
+                <h3>Поиск по автомобилю</h3>
+                <div class="search_po_auto_diski">
+                    <h5>Диски:</h5>
+                    <div class="custom-select">
+                        <label for="marka_avto">
+                            Марка <span>авто: </span>
+                        </label>
+                        <select id="marka_avto">
+                            <option></option>
+                            <option>Марка 1</option>
+                            <option>Марка 2</option>
+                        </select>
+                    </div>
+                    <div class="custom-select">
+                        <label for="model" class="custom_model">
+                            Модель <span>автомобиля: </span>
+                        </label>
+                        <select id="model">
+                            <option></option>
+                            <option>модель 1</option>
+                            <option>модель 2</option>
+                        </select>
+                    </div>
+                    <div class="custom-select god_vipuska">
+                        <label for="god_vipuska">
+                            Год выпуска <span>автомобиля: </span>
+                        </label>
+                        <select id="god_vipuska">
+                            <option></option>
+                            <option>2015</option>
+                            <option>2016</option>
+                        </select>
+                    </div>
+                    <div class="custom-select">
+                        <label for="komplectaciya">
+                            Комплектация
+                        </label>
+                        <select id="komplectaciya">
+                            <option></option>
+                            <option>А</option>
+                            <option>Б</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="search_po_auto_shini">
+                    <h5>Шины:</h5>
+                    <div class="custom-select">
+                        <label for="marka_avto">
+                            Марка <span>авто: </span>
+                        </label>
+                        <select id="marka_avto">
+                            <option></option>
+                            <option>Марка 1</option>
+                            <option>Марка 2</option>
+                        </select>
+                    </div>
+                    <div class="custom-select">
+                        <label for="model" class="custom_model">
+                            Модель <span>автомобиля: </span>
+                        </label>
+                        <select id="model">
+                            <option></option>
+                            <option>модель 1</option>
+                            <option>модель 2</option>
+                        </select>
+                    </div>
+                    <div class="custom-select god_vipuska">
+                        <label for="god_vipuska">
+                            Год выпуска <span>автомобиля: </span>
+                        </label>
+                        <select id="god_vipuska">
+                            <option></option>
+                            <option>2015</option>
+                            <option>2016</option>
+                        </select>
+                    </div>
+                    <div class="custom-select">
+                        <label for="komplectaciya">
+                            Комплектация
+                        </label>
+                        <select id="komplectaciya">
+                            <option></option>
+                            <option>А</option>
+                            <option>Б</option>
+                        </select>
+                    </div>
+                </div>
+
+                <a href="" type="submit">поиск...</a>
+            </form>
+            <form class="search_po_shina"></form>
+            <form class="search_disk"></form>
+        </section>
+
         <main>
-            <section>
-                <form></form>
-                <form></form>
-                <form></form>
-            </section>
-            <aside></aside>
+            <aside class="katalog">
+                <a class="katalog_prod" href=""><i class="fa fa-file-text-o"></i>КАТАЛОГ ПРОДУКЦИИ:</a>
+                <div class="product_block">
+                    <a class="product_name" href=""><i class="fa fa-circle-o"></i>ШИНЫ</a>
+                    <ul class="product_spisok">
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 1</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 2</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 3</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 4</a></li>
+                    </ul>
+                </div>
+                <div class="product_block">
+                    <a class="product_name" href=""><i class="fa fa-circle-o"></i>ДИСКИ</a>
+                    <ul class="product_spisok">
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 1</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 2</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 3</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 4</a></li>
+                    </ul>
+                </div>
+                <div class="product_block">
+                    <a class="product_name" href=""><i class="fa fa-circle-o"></i>БОЛТЫ</a>
+                    <ul class="product_spisok">
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 1</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 2</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 3</a></li>
+                        <li><i class="fa fa-circle-o"></i><a href="#">Наименование 4</a></li>
+                    </ul>
+                </div>
+            </aside>
             <article>
-                <figure>
-                    <a href=""><img src="" alt="" /></a>
-                    <figcaption></figcaption>
+                <figure class="ultraGripExtreme">
+                    <figcaption>Goodyear</figcaption>
+                    <p>Ultra Grip Extreme</p>
+                    <a href=""></a>
+                </figure>
+                <figure class="hakkapeliittaR">
+                    <figcaption>Nokian</figcaption>
+                    <p>Hakkapeliitta R</p>
+                    <a href=""></a>
+                </figure>
+                <figure class="hankookK708">
+                    <figcaption>Nankook</figcaption>
+                    <p>K 708 155/65 R14</p>
+                    <a href=""></a>
+                </figure>
+                <figure class="ultraGripExtreme">
+                    <figcaption>Goodyear</figcaption>
+                    <p>Ultra Grip Extreme</p>
+                    <a href=""></a>
+                </figure>
+                <figure class="hakkapeliittaR">
+                    <figcaption>Nokian</figcaption>
+                    <p>Hakkapeliitta R</p>
+                    <a href=""></a>
+                </figure>
+                <figure class="hankookK708">
+                    <figcaption>Nankook</figcaption>
+                    <p>K 708 155/65 R14</p>
+                    <a href=""></a>
+                </figure>
+                <figure class="ultraGripExtreme">
+                    <figcaption>Goodyear</figcaption>
+                    <p>Ultra Grip Extreme</p>
+                    <a href=""></a>
+                </figure>
+                <figure class="hakkapeliittaR">
+                    <figcaption>Nokian</figcaption>
+                    <p>Hakkapeliitta R</p>
+                    <a href=""></a>
+                </figure>
+                <figure class="hankookK708">
+                    <figcaption>Nankook</figcaption>
+                    <p>K 708 155/65 R14</p>
+                    <a href=""></a>
                 </figure>
             </article>
-            <section></section>
-            <nav></nav>
-            <figure>
-                <figcaption></figcaption>
-            </figure>
+            <aside class="brendy">
+                <a class="katalog_prod" href=""><i class="fa fa-file-text-o"></i>БРЕНДЫ:</a>
+                <div class="product_block">
+                    <a class="product_name" href=""><i class="fa fa-circle-o"></i>ШИНЫ</a>
+                    <ul class="product_spisok">
+                        <li><i class="fa fa-square-o"></i><a href="#">Бренд 1</a></li>
+                        <li><i class="fa fa-square-o"></i><a href="#">Бренд 2</a></li>
+                        <li><i class="fa fa-square-o"></i><a href="#">Бренд 3</a></li>
+                    </ul>
+                </div>
+                <div class="product_block">
+                    <a class="product_name" href=""><i class="fa fa-circle-o"></i>ДИСКИ</a>
+                    <ul class="product_spisok product_spisok_diski">
+                        <li><i class="fa fa-square-o"></i><a href="#">Бренд 1</a></li>
+                        <li><i class="fa fa-square-o"></i><a href="#">Бренд 2</a></li>
+                        <li><i class="fa fa-square-o"></i><a href="#">Бренд 3</a></li>
+                    </ul>
+                </div>
+                <button type="button" name="bybor_brend" value="">ВЫБРАТЬ</button>
+            </aside>
+            <nav class="logo_bar">
+                <a href=""><img src="img/Toyo_logo.png" /></a>
+                <a href=""><img src="img/Bridgestone_logo.png" /> </a>
+                <a href=""><img src="img/Continental_logo.png" /> </a>
+                <a href=""><img src="img/Cooper_logo.png" /> </a>
+                <a href=""><img src="img/Avon_logo.png" /></a>
+                <a href=""><img class="tireFactory" src="img/TireFactory_logo.png" /> </a>
+                <a href=""><img src="img/Pirelli_logo.png" /> </a>
+                <a href=""><img src="img/dunlop_logo.png" /> </a>
+            </nav>
         </main>
-        <footer></footer>
+        <footer>
+            <ul>
+                <li><a href="">О компании</a></li>
+                <li><a href="">Доставка</a></li>
+                <li><a href="">Статьи</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+            <p>Создание сайта &copy; Global Vision</p>
+        </footer>
     </div>
 </body>
 </html>

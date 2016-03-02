@@ -5,23 +5,26 @@ body {
 }
 
 .wrapper {
-    /*width: 1000px;*/
     width: 909px;
-    height: 1260px;
-    border: 1px solid lightblue;
-    padding: 20px 40px 0;
+    height: 1310px;
+    margin: 0 auto;
+    padding: 0 45px;
 }
 /*HEADER*/
+header {
+    margin: 8px 0 12px;
+}
 
 .phones {
-    margin: 12px 0 0;
+    margin: 3px 0 0;
     float: left;
 }
 
     .phones a {
         text-decoration: none;
         font: normal 18px/24px Arial;
-        padding-left: 5px;
+        letter-spacing: 0.3px;
+        padding-left: 4px;
         color: #5e696d;
     }
 
@@ -31,6 +34,7 @@ body {
     float: left;
     width: 22px;
     height: 22px;
+    margin-left: 6px;
     background: url('../img/phone.png') center center no-repeat;
     color: #ffffff;
     background-color: #103d62;
@@ -39,77 +43,588 @@ body {
 
 .autorization {
     float: left;
+    height: 16px;
     background-color: #103d62;
-    padding: 5px 10px;
-    margin: 0 12px 14px;
+    padding: 3px 10px 7px 2px;
+    margin: 0 0 11px 17px;
     border-radius: 5px;
     box-shadow: 3px 3px 10px #696969;
 }
 
     .autorization input {
-    font: normal 11px/20px 'Lucida Sans Unicode';
-    color: #97a2a6;
-    padding-left: 5px;
-    width: 112px;
+        font: normal 11px/15px 'Lucida Sans Unicode';
+        color: #97a2a6;
+        padding-left: 5px;
+        width: 107px;
     }
 
 .autorization_button {
+    background: url('../img/autorization.png') no-repeat;
     display: block;
     float: left;
-    width: 22px;
-    height: 26px;
-    margin-right: 4px;
-    background: url('../img/autorization.png') no-repeat;
-    background-size: cover;
+    width: 14px;
+    height: 18px;
+    margin: 1px 4px 0;
 }
 
 .autorization a {
-    font: normal 11px/20px 'Lucida Sans Unicode';
+    font: normal 11px/11px 'Lucida Sans Unicode';
     text-decoration: none;
+    letter-spacing: -0.2px;
     color: #ffffff;
 }
-.autorization .vxod{
+
+.autorization .vxod {
     border-right: 1px solid #ffffff;
     padding: 0 5px 0 2px;
 }
-.autorization .zabylparol{
-    color:#bfbfbf;
+
+.autorization .zabylparol {
+    color: #bfbfbf;
     padding-left: 15px;
-    text-decoration:underline;
+    letter-spacing: 0.7px;
+    font: normal 11px/21px 'Lucida Sans Unicode';
+    text-decoration: underline;
 }
+
 .link_bar {
     display: block;
     float: right;
     border: 1px solid #696969;
     border-radius: 20px;
-    padding: 5px;
+    padding: 3px;
+    margin: 1px 6px;
     color: #696969;
-    
 }
 
-.link_bar a{
-    padding: 0 5px;
-    display: block;
-    float: left;
-    color: grey;
-}
+    .link_bar a {
+        padding: 0 6px;
+        display: block;
+        font-size: 11px;
+        float: left;
+        color: grey;
+    }
 
 .banner {
     background: url('../img/banner.png') no-repeat;
     width: 909px;
     height: 237px;
     clear: both;
+    margin-bottom: 5px;
 }
-.top_header{
-    margin-bottom:20px;
+
+.top_header {
+    margin-bottom: 20px;
 }
+
+header nav {
+    background: #0b0d0e;
+    border-top: 3px solid #505860;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 3px 3px 10px #696969;
+}
+
+    header nav ul {
+        padding-left: 130px;
+    }
+
+    header nav li {
+        float: left;
+    }
+
+        header nav li a {
+            text-decoration: none;
+            font: normal 14px/30px 'Lucida Sans Unicode';
+            color: #b1bcc0;
+            padding: 4px 15px;
+        }
+
+        header nav li:nth-child(2) {
+            letter-spacing: 0.2px;
+            padding-left: 2px;
+        }
+
+        header nav li:nth-child(3) {
+            letter-spacing: -0.2px;
+        }
+
+        header nav li:nth-child(4) {
+            letter-spacing: -0.3px;
+        }
+
+        header nav li:nth-child(5) a {
+            letter-spacing: -0.3px;
+            padding: 4px 11px;
+        }
+
+    header nav > a, header nav > p {
+        display: block;
+        font: normal 11px/27px Arial;
+        float: right;
+        padding: 0 3px;
+        color: #929b9f;
+    }
+
+    header nav > p {
+        color: #8a9296;
+        padding-left: 9px;
+    }
+
+.kolich_tovarov:after, .tovarov_na_summu:after {
+    display: block;
+    font: normal 12px/29px Arial;
+    float: right;
+    letter-spacing: 0.5px;
+    color: #0d5a8f;
+}
+
+.kolich_tovarov:after {
+    content: '0';
+    padding: 0 3px;
+}
+
+.tovarov_na_summu:after {
+    content: '0,00 грн.';
+    padding: 0 10px;
+}
+
+.fa-shopping-cart {
+    color: #173b56;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+    background-color: #124366;
+    border-radius: 15px;
+}
+
+/*SEARCHBAR*/
+
+.search_bar {
+    height: 135px;
+    margin-bottom: 17px;
+}
+
+    .search_bar h5 {
+        margin: 0 15px 5px;
+        font: 900 10px/12px Arial;
+        color: #154468;
+    }
+
+    .search_bar form {
+        height: 134px;
+        float: left;
+        border: 1px solid #696969;
+        margin: 0 9px 10px 4px;
+        border-radius: 22px;
+        box-shadow: 3px 3px 10px #696969;
+    }
+
+    .search_bar label {
+        width: 70px;
+        margin-top: 5px;
+        font: normal 10px/10px Arial;
+        color: #000000;
+        float: left;
+    }
+
+        .search_bar label span {
+            font: normal 8px/10px Arial;
+            color: #77858b;
+        }
+
+.search_po_auto {
+    width: 413px;
+}
+
+.search_po_auto_diski {
+    float: left;
+}
+
+.search_bar .search_po_auto_shini {
+    float: right;
+    margin-right: 15px;
+}
+
+    .search_po_auto_shini h5 {
+        float: right;
+        margin: 0 25px 5px;
+    }
+
+.search_po_shina {
+    width: 192px;
+}
+
+.search_bar .search_disk {
+    width: 266px;
+    margin: 0 0 0 2px;
+    border-radius: 15px;
+}
+
+.search_bar div {
+    margin: -10px 5px 5px;
+    width: 180px;
+    position: relative;
+}
+
+.search_po_auto a {
+    float: right;
+    margin: -8px 30px 0;
+    font: italic 14px/16px Arial;
+    color: #154467;
+    text-decoration: none;
+    border-bottom: 1px solid #a6b1bc;
+}
+
+.search_bar h3 {
+    text-align: center;
+    color: #154467;
+    font: 900 12px/14px Arial;
+}
+
+.custom-select .custom_model {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 8px;
+}
+.custom-select.god_vipuska {
+        width: 125px;
+        margin-top: 0;
+    }
+.custom-select.god_vipuska label{
+    margin-top:0;
+}
+.custom-select.god_vipuska select{
+    width: 45px;
+}
+
+    .custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+    .custom-select select {
+        display: inline-block;
+        border:none;
+        font: normal 10px/10px Arial;
+        width: 90px;
+        height: 15px;
+        border-left: 1px solid #949494;
+        border-top: 1px solid #949494;
+        padding: 3px;
+        margin: 0 5px;
+        outline:none; /* remove focus ring from Webkit */
+        background: #f8f8f8;
+        
+        -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
+   }
+
+    /* for Webkit's CSS-only solution */
+    @media screen and (-webkit-min-device-pixel-ratio:0) { 
+        .custom-select select {
+            padding-right:30px;    
+        }
+    }
     
-/*MENU*/
+    /* Select arrow styling */
+    .custom-select:after {
+        content: "▼";
+        position: absolute;
+        height: 15px;
+        border: 1px solid #d0d0d0;
+        border-top: 1px solid #949494;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 0 1px;
+        background-color:#ffffff;
+        color: #000000;
+        
+        pointer-events:none;
+    }
+    
+    .no-pointer-events .custom-select:after {
+        content: none;
+    }
 
+/*MAIN*/
 
-/*FORM*/
+main {
+    clear: both;
+}
+
+aside {
+    width: 180px;
+}
+
+.katalog {
+    float: left;
+    margin-top: 2px;
+}
+
+.katalog_prod {
+    color: #114165;
+    font: normal 13px/26px 'Lucida Sans Unicode';
+    text-decoration: none;
+    display: block;
+    letter-spacing: -0.1px;
+    border: 1px solid #8b979c;
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px #696969;
+    margin-bottom: 14px;
+}
+
+    .katalog_prod i {
+        border-radius: 10px;
+        width: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #fff;
+        background-color: #114165;
+        margin: 4px;
+    }
+
+.product_name {
+    width: 150px;
+    color: #114165;
+    font: normal 13px/26px 'Lucida Sans Unicode';
+    text-decoration: none;
+    display: block;
+    border: 1px solid #8b979c;
+    border-radius: 18px;
+    margin-left: 1px;
+    letter-spacing: 0.7px;
+}
+
+    .product_name i {
+        border-radius: 10px;
+        width: 18px;
+        display: block;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 21px;
+        float: left;
+        color: #114165;
+        margin: 3px 7px 0 3px;
+    }
+
+.product_block {
+    width: 152px;
+    display: block;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+    .product_block ul {
+        margin-bottom: -5px;
+        float: right;
+    }
+
+.product_spisok a {
+    text-decoration: none;
+    color: #465961;
+    font: normal 13px/26px 'Lucida Sans Unicode';
+    margin-left: 3px;
+}
+
+    .product_spisok a:hover {
+        font: bold italic 14px/26px Arial;
+    }
+
+.product_spisok i {
+    font-size: 6px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    line-height: 26px;
+}
+
+.brendy {
+    float: right;
+    width: 182px;
+}
+
+    .brendy .product_block {
+        width: 152px;
+        margin-bottom: 10px;
+    }
+
+    .brendy .product_name {
+        width: 138px;
+        margin-left: 12px;
+    }
+
+    .brendy .product_block ul {
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 6px;
+    }
+
+    .brendy button {
+        display: block;
+        width: 80px;
+        clear: both;
+        font: normal 11px/21px Arial;
+        color: #e5e9ea;
+        background-color: #114165;
+        margin: 94px 22px;
+        border-radius: 15px;
+    }
+
+    .brendy .product_spisok i {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .brendy .product_spisok_diski {
+        margin-top: 6px;
+    }
+
+/*MAINARTICLE_tovar*/
+
+article {
+    width: 526px;
+    height: 627px;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: -moz-linear-gradient(270deg, #e5e7e8 0, #93a7b0 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e5e7e8), color-stop(100%, #93a7b0)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, #e5e7e8 0, #93a7b0 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, #e5e7e8 0, #93a7b0 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, #e5e7e8 0, #93a7b0 100%); /* ie10+ */
+    background: linear-gradient(180deg, #e5e7e8 0, #93a7b0 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e7e8', endColorstr='#93a7b0',GradientType=0 ); /* ie6-9 */
+}
+
+    article figure {
+        width: 138px;
+        float: left;
+        margin: 14px 6px 30px 23px;
+    }
+
+        article figure a {
+            display: block;
+            width: 138px;
+            height: 128px;
+            border: 1px solid #b0b9bc;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+    article figcaption {
+        font: normal 15px/15px 'Lucida Sans Unicode';
+        color: #206988;
+    }
+
+    article figure p {
+        font: normal 13px/13px 'Lucida Sans Unicode';
+        color: #1f2528;
+    }
+
+    article figure a:after {
+        font: bold italic 14px/20px Arial;
+        color: #114165;
+        display: block;
+        margin-top: 130px;
+    }
+
+.ultraGripExtreme a {
+    background: #ffffff url('../img/GoodyearUltraGripExtreme.jpg') center center no-repeat;
+}
+
+    .ultraGripExtreme a:after {
+        content: '90.00 грн.';
+    }
+
+.hakkapeliittaR a {
+    background: #ffffff url('../img/NokianHakkapeliittaR.jpg') center center no-repeat;
+}
+
+    .hakkapeliittaR a:after {
+        content: '115.00 грн.';
+    }
+
+.hankookK708 a {
+    background: #ffffff url('../img/HankookK708.jpg') center center no-repeat;
+}
+
+    .hankookK708 a:after {
+        content: '393.00 грн.';
+    }
+
+/*LOGOBAR*/
+
+.logo_bar {
+    width: 690px;
+    clear: both;
+    margin: 0 auto;
+    padding: 41px 0 25px;
+}
+
+    .logo_bar a {
+        padding: 0 10px 0 0;
+        text-decoration: none;
+    }
+
+        .logo_bar a:last-child {
+            padding: 0;
+        }
+
+    .logo_bar img {
+        vertical-align: top;
+    }
+
+        .logo_bar img.tireFactory {
+            margin-top: -4px;
+        }
 
 /*FOOTER*/
 
 footer {
+    width: 909px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #213a4d;
+    text-align: center;
 }
+
+    footer ul {
+        margin: 0 auto;
+        padding: 13px 0 15px;
+        clear: both;
+        width: 308px;
+        height: 16px;
+    }
+
+    footer li {
+        float: left;
+        height: 13px;
+        border-right: 1px solid #bec6c9;
+    }
+
+        footer li:last-child {
+            border: none;
+        }
+
+    footer a {
+        color: #bec6c9;
+        font: normal 12px/12px Arial;
+        text-decoration: none;
+        padding: 0 12px;
+        vertical-align: top;
+    }
+
+        footer a:hover {
+            color: #52abcb;
+        }
+
+    footer p {
+        font: normal 10px/10px Arial;
+        color: #7f4740;
+    }
